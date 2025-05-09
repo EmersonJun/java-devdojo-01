@@ -1,7 +1,7 @@
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    private double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
     public String getNome() {
         return nome;
     }
@@ -13,7 +13,7 @@ public class Carro {
         System.out.println("-------------------------");
         System.out.println("nome: "+this.nome);
         System.out.println("velocidade maxima: "+ this.velocidadeMaxima);
-        System.out.println("velocidade limite: "+ this.velocidadeLimite );
+        System.out.println("velocidade limite: "+ Carro.velocidadeLimite );
     }
     public void setNome(String nome) {
         this.nome = nome;
@@ -24,12 +24,12 @@ public class Carro {
     public void setVelocidadeMaxima(double velocidadeMaxima) {
         this.velocidadeMaxima = velocidadeMaxima;
     }
-    public double getVelocidadeLimite() {
-        return velocidadeLimite;
-    }
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        this.velocidadeLimite = velocidadeLimite;
-    }
+    // public double getVelocidadeLimite() {
+    //     return velocidadeLimite;
+    // }
+    // public void setVelocidadeLimite(double velocidadeLimite) {
+    //     this.velocidadeLimite = velocidadeLimite;
+    // }
 
     
 }
