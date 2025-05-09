@@ -1,5 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Anime anime = new Anime();
+        Carro c1 = new Carro("c1", 280);
+        Carro c2 = new Carro("gol", 100);
+        Carro c3 = new Carro("polo", 10);
+
+        c1.imprime();
+        c2.imprime();
+        c3.imprime();
     }
 }
