@@ -1,12 +1,17 @@
-public class Time {
+public class Professor {
     private String nome;
 
-    public Time(String nome) {
+    public Professor(String nome) {
         this.nome = nome;
     }
 
     public String getNome() {
         return nome;
+    }
+
+    @Override
+    public String toString() {
+        return  nome + "";
     }
 
     public void setNome(String nome) {
