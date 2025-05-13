@@ -5,6 +5,8 @@ public class App {
         System.out.println("velocidade maxima do carro: "+Carro.VELOCIDADE_LIMITE);
         carro.comprador.setNome("carlos");
         System.out.println(carro.comprador);
-
+        Ferrari ferrari = new Ferrari();
+        ferrari.setNome("sla");
+        ferrari.imprime();
     }
 }
