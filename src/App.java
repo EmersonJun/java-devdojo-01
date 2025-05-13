@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Cliente cliente1 = new Cliente("tay", TipoCliente.PESSOA_FISICA);
-        Cliente cliente2 = new Cliente("tay", TipoCliente.PESSOA_FISICA);
-        Cliente cliente3 = new Cliente("tay", TipoCliente.PESSOA_JURIDICA);
-        Cliente cliente4 = new Cliente("tay", TipoCliente.PESSOA_JURIDICA);
+        Cliente cliente1 = new Cliente("tay", TipoCliente.PESSOA_FISICA, Cliente.TipoPagamento.CREDITO);
+        Cliente cliente2 = new Cliente("tay", TipoCliente.PESSOA_FISICA, Cliente.TipoPagamento.CREDITO);
+        Cliente cliente3 = new Cliente("tay", TipoCliente.PESSOA_FISICA, Cliente.TipoPagamento.CREDITO);
+        Cliente cliente4 = new Cliente("tay", TipoCliente.PESSOA_FISICA, Cliente.TipoPagamento.CREDITO);
 
         System.out.println(cliente1);
         System.out.println(cliente2);
