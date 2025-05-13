@@ -1,11 +1,20 @@
 public class Pessoa {
     protected String nome, cpf;
     protected Endereco endereco;
-
+    static{
+        System.out.println("dentro do bloco de inicializacao estatico pessoa");
+    }
+    {
+        System.out.println("dentro do bloco de inicializacao pessoa 1");
+    }
+    {
+        System.out.println("dentro do bloco de inicializacao pessoa 2");
+    }
     
     public Pessoa(String nome) {
         super();
         this.nome = nome;
+        System.out.println("dentro do construtor pessoa");
     }
     
     public void imprime(){
