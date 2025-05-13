@@ -1,6 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
         Carro carro = new Carro();
-        System.out.println(Carro.VELOCIDADE_LIMITE);
+        Comprador comprador2 = new Comprador(); 
+        System.out.println("velocidade maxima do carro: "+Carro.VELOCIDADE_LIMITE);
+        carro.comprador.setNome("carlos");
+        System.out.println(carro.comprador);
+
     }
 }
