@@ -10,5 +10,9 @@ public class App {
         System.out.println(cliente3);
         System.out.println(cliente4);
         System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
+        TipoCliente tipoCliente1 = TipoCliente.valueOf("PESSOA_JURIDICA");
+        System.out.println(tipoCliente1); 
+        TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("pesoa");
+        System.out.println(tipoCliente );
     }
 }
