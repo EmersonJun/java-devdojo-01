@@ -4,7 +4,8 @@ public class App {
         System.out.println(gerente);
         Desenvolvedor desenvolvedor = new Desenvolvedor("goro", 150000);
         System.out.println(desenvolvedor);
-        
+        gerente.imprime();
+        desenvolvedor.imprime();
 
     }
 }

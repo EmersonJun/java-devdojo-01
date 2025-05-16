@@ -1,4 +1,4 @@
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa{
     protected String nome;
     protected double salario;
     public Funcionario(String nome, double salario) {
@@ -6,7 +6,7 @@ public abstract class Funcionario {
         this.salario = salario;
     }
     public abstract void calculaBonus();
-    
+
     @Override
     public abstract String toString();
 }

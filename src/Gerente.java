@@ -6,6 +6,11 @@ public class Gerente extends Funcionario{
     }
 
     @Override
+    public void imprime() {
+        System.out.println("imprimindo");
+    }
+
+    @Override
     public String toString() {
         return "nome: "+this.nome+"\nsalario: "+this.salario;
     }
